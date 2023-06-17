@@ -1,11 +1,11 @@
-About r-assertr
-===============
+About r-assertr-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-assertr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ropensci/assertr
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-assertr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides functionality to assert conditions that have to be met so that errors in data used in analysis pipelines can fail quickly. Similar to 'stopifnot()' but more powerful, friendly, and easier for use in pipelines.
 
