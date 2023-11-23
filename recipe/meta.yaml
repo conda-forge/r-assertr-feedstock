@@ -1,4 +1,4 @@
-{% set version = "3.0.0" %}
+{% set version = "3.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/assertr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/assertr/assertr_{{ version }}.tar.gz
-  sha256: d7dd657c6e4e4b8604204b9c49e7d4ce6f22e117a3ae6a1ee69b3264d2af23f2
+  sha256: 6c91891cfb29b187fb309ee57d169e746c6f8a0724abf59d0ddb683a2742f03c
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
