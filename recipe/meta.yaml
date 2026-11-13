@@ -1,4 +1,4 @@
-{% set version = "3.0.1" %}
+{% set version = "3.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/assertr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/assertr/assertr_{{ version }}.tar.gz
-  sha256: 6c91891cfb29b187fb309ee57d169e746c6f8a0724abf59d0ddb683a2742f03c
+  sha256: 3d0aa1b08521985f343245fa4307000576fbc828f2ba75377000ecd98f6b8d88
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
